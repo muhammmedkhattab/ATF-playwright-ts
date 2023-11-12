@@ -1,0 +1,9 @@
+{
+  "ignorePatterns": ["!**/*","*.json"],
+  "parserOptions": {
+    "project": [
+      "libs/shared-e2e/tsconfig.*?.json"
+
+    ]
+  }
+}

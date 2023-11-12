@@ -1,0 +1,15 @@
+{
+  "api": {
+    "endpoints": {
+    },
+    "services": {
+      "login":""
+    },
+    "params": {
+      "service": "",
+      "secret": "",
+      "output": "json",
+      "product": ""
+    }
+  }
+}

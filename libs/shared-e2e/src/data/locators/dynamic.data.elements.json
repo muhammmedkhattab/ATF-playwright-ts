@@ -1,0 +1,6 @@
+{
+  "getTextLocator": "//*[text()='%s']",
+  "getTextByIndexAndLocator": "(//*[text()='%s'])[%s]",
+  "uploadZoneLocator": ".UploadZone-fileName"
+
+}

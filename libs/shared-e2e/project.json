@@ -1,0 +1,19 @@
+{
+  "name": "shared-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared-e2e/src",
+  "projectType": "library",
+  "targets": {
+    "build-e2e": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/shared-e2e",
+        "main": "libs/shared-e2e/src/index.ts",
+        "tsConfig": "libs/shared-e2e/tsconfig.lib.json",
+        "assets": ["libs/shared-e2e/*.md"]
+      }
+    }
+  },
+  "tags": []
+}
