@@ -3,24 +3,28 @@
   "version": "0.0.0",
   "owner": "vsfc",
   "scripts": {
-    "nx": "nx"
+    "nx": "nx",
+    "test": "playwright test",
+    "test:ui": "playwright test libs/shared-e2e/src/tests/ui",
+    "test:api": "playwright test libs/shared-e2e/src/tests/api",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
   },
   "private": true,
   "devDependencies": {
-    "@playwright/test": "1.38.0",
+    "@playwright/test": "^1.58.2",
     "@types/faker": "6.6.9",
     "allure-playwright": "2.0.0",
     "cross-env": "7.0.3",
-    "esbuild": "0.17.19",
+    "esbuild": "^0.27.3",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-airbnb-typescript": "17.1.0",
     "eslint-config-prettier": "8.10.0",
     "eslint-plugin-testing-library": "6.0.0",
-    "nx": "16.7.0",
+    "nx": "^22.5.4",
     "prettier": "3.0.1",
     "typescript": "5.1.6"
-  },
-  "dependencies": {
   }
 }
